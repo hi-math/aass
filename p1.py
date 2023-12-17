@@ -11,15 +11,15 @@ st.set_page_config(
 )
 
 # 페이지 정의
-#pages = [
-#    Page("p1.py", "들어가기", ":cactus:"),
-#    Page("p2.py", "직업 특성", ":palm_tree:"),
-#    Page("p3.py", "나의 가치관", ":evergreen_tree:"),
-#    Page("p4.py", "직업 추천", ":deciduous_tree:")
-#]
+pages = [
+    Page("p1.py", "들어가기", ":cactus:"),
+    Page("p2.py", "직업 특성", ":palm_tree:"),
+    Page("p3.py", "나의 가치관", ":evergreen_tree:"),
+    Page("p4.py", "직업 추천", ":deciduous_tree:")
+]
 
 # 페이지 표시
-#show_pages(pages)
+show_pages(pages)
 
 # 진로탐색프로젝트
 st.title(":sunflower:진로탐색 프로젝트:sunflower:")
