@@ -1,8 +1,8 @@
-streamlit
+streamlit=1.24.0
 wordcloud
 matplotlib
 seaborn
 pandas
 koreanize_matplotlib
 openai==0.28.1
-st-pages==1.24.0
+st-pages
