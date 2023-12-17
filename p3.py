@@ -13,7 +13,7 @@ st.subheader(":seedling:**직업 선택 시 나에게 더 중요한 것은?**", 
 
 
 # API 키 읽기
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = "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"
 
 # 항목 리스트
 items = ["안정성", "일과 삶의 균형", "사회적 평판", "연봉", "자기 계발", "사회적 기여"]
