@@ -4,5 +4,5 @@ matplotlib
 seaborn
 pandas
 koreanize_matplotlib
-openai
+openai==0.28.1
 st-pages
