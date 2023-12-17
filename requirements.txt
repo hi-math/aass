@@ -6,4 +6,3 @@ pandas
 koreanize_matplotlib
 openai
 st-pages
-dotenv
