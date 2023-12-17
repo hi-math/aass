@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import openai
-from dotenv import load_dotenv
+
 
 st.set_page_config(
     page_title="진로탐색 프로젝트",
@@ -11,11 +11,10 @@ st.set_page_config(
 
 st.subheader(":seedling:**직업 선택 시 나에게 더 중요한 것은?**", divider="rainbow")
 
-# .env 파일 로드
-load_dotenv()
+
 
 # API 키 읽기
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets['OPENAI_API_KEY']
 
 # 항목 리스트
 items = ["안정성", "일과 삶의 균형", "사회적 평판", "연봉", "자기 계발", "사회적 기여"]
