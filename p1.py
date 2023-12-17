@@ -25,7 +25,7 @@ show_pages(pages)
 st.title(":sunflower:진로탐색 프로젝트:sunflower:")
 st.subheader("뭘 할 지 모르겠어? 오늘 같이 고민해보자!")
 
-image_path = "./img1.jpg"
+image_path = "img1.jpg"
 st.image(image_path, caption="출처:https://www.ytn.co.kr/_ln/0103_202212200127267290", use_column_width=True)
 
 st.subheader(":seedling:**오늘의 목표**", divider="rainbow")
